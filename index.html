@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ISMP Demo - Servis Masası</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bütünleşik Servis Yönetim Platformu</h1>
+        </header>
+        <main>
+            <h2>Ana Servis Masası</h2>
+            <div class="metrics">
+                <div class="metric-card">
+                    <span class="value">15</span>
+                    <span class="label">Yeni Talep</span>
+                </div>
+                <div class="metric-card">
+                    <span class="value">42</span>
+                    <span class="label">İşlemde</span>
+                </div>
+                <div class="metric-card">
+                    <span class="value">5</span>
+                    <span class="label">Gecikmiş</span>
+                </div>
+            </div>
+            <div class="ticket-list">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Konu</th>
+                            <th>Müşteri</th>
+                            <th>Öncelik</th>
+                            <th>Durum</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="ticket.html">#1001</a></td>
+                            <td><a href="ticket.html">Sunucuya erişim sorunu var</a></td>
+                            <td>ABC Teknoloji</td>
+                            <td><span class="priority high">Yüksek</span></td>
+                            <td><span class="status open">Açık</span></td>
+                        </tr>
+                        <tr>
+                            <td>#1002</td>
+                            <td>Yazıcı çıktısı alınamıyor</td>
+                            <td>DEF Lojistik</td>
+                            <td><span class="priority medium">Orta</span></td>
+                            <td><span class="status in-progress">İşlemde</span></td>
+                        </tr>
+                        <tr>
+                            <td>#1003</td>
+                            <td>E-posta senkronizasyon hatası</td>
+                            <td>XYZ Market</td>
+                            <td><span class="priority high">Yüksek</span></td>
+                            <td><span class="status open">Açık</span></td>
+                        </tr>
+                        <tr>
+                            <td>#1004</td>
+                            <td>Yazılım lisans yenileme talebi</td>
+                            <td>ABC Teknoloji</td>
+                            <td><span class="priority low">Düşük</span></td>
+                            <td><span class="status closed">Kapandı</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
